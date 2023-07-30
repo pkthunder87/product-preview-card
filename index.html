@@ -36,11 +36,13 @@
   </head>
   <body>
     <div class="product-card">
-      <img
+      <!-- <img
         src="images/image-product-desktop.jpg"
         alt="Chanel Perfume"
         class="product-card__image"
-      />
+      /> -->
+
+      <div class="product-card__image">&nbsp;</div>
 
       <div class="product-card__info">
         <div class="product-card__info--title">PERFUME</div>
@@ -56,7 +58,14 @@
           <div class="product-card__info--prices--big">$149.99</div>
           <div class="product-card__info--prices--small">$169.99</div>
         </div>
-        <button class="btn">Add to Cart</button>
+        <button class="product-card__info--btn">
+          <img
+            src="images/icon-cart.svg"
+            alt="Shooping Cart Icon"
+            class="product-card__info--icon"
+          />
+          Add to Cart
+        </button>
       </div>
     </div>
 
