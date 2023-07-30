@@ -1,9 +1,10 @@
 .product-card {
   display: grid;
-  grid-template-columns: minmax(0, 26rem) minmax(0, 26rem);
-  grid-template-rows: minmax(0, 42rem);
+  grid-template-columns: minmax(0, 30rem) minmax(0, 30rem);
+  grid-template-rows: minmax(0, 46rem);
   overflow: hidden;
   border-radius: 10px;
+  box-shadow: 0.5rem 0.5rem 1rem rgba(0, 0, 0, 0.03);
 
   &__image {
     width: 100%;
@@ -16,5 +17,27 @@
     width: 100%;
     height: 100%;
     background-color: var(--color-white);
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    &--title {
+    }
+    &--heading {
+      font-family: "Fraunces", sans-serif;
+      font-size: 3.2rem;
+      color: var(--color-very-dark-blue);
+    }
+    &--details {
+    }
+    &--prices {
+      display: flex;
+      gap: 2rem;
+    }
+    &--prices--big {
+    }
+    &--prices--small {
+    }
   }
 }
