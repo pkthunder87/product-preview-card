@@ -23,7 +23,7 @@ html {
           box-sizing: border-box;
   font-size: 62.5%;
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
   html {
     font-size: 50%;
   }
@@ -50,7 +50,7 @@ body {
   font-size: 1.4rem;
   color: var(--color-dark-grayish-blue);
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
   body {
     font-size: 1.6rem;
   }
@@ -65,7 +65,7 @@ body {
   -webkit-box-shadow: 0.5rem 0.5rem 2rem rgba(0, 0, 0, 0.02);
           box-shadow: 0.5rem 0.5rem 2rem rgba(0, 0, 0, 0.02);
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
   .product-card {
     grid-template-columns: minmax(0, 40rem);
     grid-template-rows: 30rem minmax(0, 44rem);
@@ -79,7 +79,7 @@ body {
   background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.08)), url(../images/image-product-desktop.jpg);
   background-size: cover;
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
   .product-card__image {
     background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(0, 0, 0, 0.08)), to(rgba(0, 0, 0, 0.08))), url(../images/image-product-mobile.jpg);
     background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.08), rgba(0, 0, 0, 0.08)), url(../images/image-product-mobile.jpg);
@@ -112,7 +112,7 @@ body {
   color: var(--color-very-dark-blue);
   line-height: 1.1;
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
   .product-card__info--heading {
     font-size: 3.8rem;
   }

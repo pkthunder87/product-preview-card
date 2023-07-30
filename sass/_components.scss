@@ -6,7 +6,7 @@
   border-radius: 10px;
   box-shadow: 0.5rem 0.5rem 2rem rgba(0, 0, 0, 0.02);
 
-  @media only screen and (max-width: 400px) {
+  @media only screen and (max-width: 500px) {
     grid-template-columns: minmax(0, 40rem);
     grid-template-rows: 30rem minmax(0, 44rem);
   }
@@ -23,7 +23,7 @@
       url(../images/image-product-desktop.jpg);
     background-size: cover;
 
-    @media only screen and (max-width: 400px) {
+    @media only screen and (max-width: 500px) {
       background-image: linear-gradient(
           to right bottom,
           rgba(0, 0, 0, 0.08),
@@ -56,7 +56,7 @@
       color: var(--color-very-dark-blue);
       line-height: 1.1;
 
-      @media only screen and (max-width: 400px) {
+      @media only screen and (max-width: 500px) {
         font-size: 3.8rem;
       }
     }
