@@ -11,7 +11,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ### Links
 
-- Live Site URL: [Github Pages](https://pkthunder87.github.io/qr-code-component/)
+- Live Site URL: [Github Pages](https://pkthunder87.github.io/product-preview-card/)
 
 ### Built with
 
@@ -22,4 +22,4 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Pkthunder87)
+- Frontend Mentor - [My Profile](https://www.frontendmentor.io/profile/Pkthunder87)
